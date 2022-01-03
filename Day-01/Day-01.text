@@ -65,7 +65,7 @@ Day-01[03-01-2022]:
 	===============
 		- init -> considered as a python file
 		- asgi -> Asychronous Gateway Interface
-		- wsgi -> Web Socket Gateway Interface
+		- wsgi -> Web Server Gateway Interface
 		- settings -> All Configurations [database,mail,app,templates,static]
 		- urls -> urls to be checked whether the urlpathname is existing in it or not?
 
