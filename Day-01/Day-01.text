@@ -1,0 +1,92 @@
+Day-01[03-01-2022]:
+===================
+	Good Morning to All....
+
+	Python Version Check:
+	=====================
+	> cmd
+	> python -V
+
+	Pip Version Check:
+	==================
+	> cmd
+	> pip -V
+
+	Django Introduction:
+	====================
+	> cmd
+	> pip install django==3.0
+	> python -m pip install --upgrade pip
+
+	Django Installation:
+	====================
+	> cmd
+	> pip install django==3.0
+	> pip install django [It installs Advanced version of django]
+
+	Django Version Check:
+	=====================
+	> cmd
+	> django-admin --version
+
+	Django Project Creation:
+	========================
+	> cmd
+	> django-admin startproject "projectname"
+
+	Django App Creation:
+	====================
+	> cmd
+	> manage.py startapp "appname"
+
+	Running of server:
+	==================
+	> cmd
+	> python manage.py runserver
+			or
+	> manage.py runserer
+
+	If port number is blocked?
+	==========================
+	> cmd
+	> manage.py runserver "userdefined portnumber"
+
+	In browser we need to use those port number for access.
+
+		http://127.0.0.1:userdefinedportnumber
+
+	> manage.py runserver 1234
+	Example:
+		http://127.0.0.1:1234
+
+	localhost => 127.0.0.1
+
+	AdminApp Files:
+	===============
+		- init -> considered as a python file
+		- asgi -> Asychronous Gateway Interface
+		- wsgi -> Web Socket Gateway Interface
+		- settings -> All Configurations [database,mail,app,templates,static]
+		- urls -> urls to be checked whether the urlpathname is existing in it or not?
+
+	UserApp Creation:
+	=================
+
+
+http://engineering.apssdc.in/register/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
