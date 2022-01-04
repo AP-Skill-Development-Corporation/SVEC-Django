@@ -1,0 +1,109 @@
+Day-02[04-01-2022]:
+===================
+	Good Morning to All...
+
+	Project:
+	--------
+		> SampleProject
+			> SampleProject [Admin App]
+			> manage.py [Services]
+		    >SampleApp [UserApp]
+
+	UserApp Creation:
+	=================
+	> cmd
+	> manage.py startapp "appname"
+
+	User App:
+	=========
+		- init -> Considered as a python file
+		- admin -> Access user tables
+		- apps -> App Configurations
+		- models -> Table creations
+		- tests -> For testing purposes
+		- views -> Logics can be coded here 
+
+
+Create another path with userdefined url name
+Create Hello function in views and response as user defined 
+
+
+
+https://github.com/AP-Skill-Development-Corporation/SVEC-Django
+
+
+urlname: mytable
+
+Firstname   xxxxxx
+Lastname    xxxxxx
+Age         xxxxxx
+Email       xxxxxx 
+
+
+path('mytable/',views.functionname),
+
+def functionname(req):
+	return render(req,'html/filename.html')
+
+<table>
+	<tr>
+	<td>Firstname</td>
+	<td>xxxxx</td>
+	</tr>
+	<tr>
+	<td>Lastname</td>
+	<td>xxxxx</td>
+	</tr>
+	<tr>
+	<td>Age</td>
+	<td>xxxxx</td>
+	</tr>
+	<tr>
+	<td>Email</td>
+	<td>xxxxx</td>
+	</tr>
+</table>
+
+	Syntax:
+	========
+	path('urlname',module.functioname,name="name of url")
+
+	Syntax:
+	=======
+	render(firstparameter of function,'.html file location',dictionary)
+
+	DTL => [Django Template Language]:
+	=================================
+	Variable:
+		> {{variablename}}
+
+	conditional statements:
+		> {% if condition %}
+			//stmnts
+		  {% endif %}
+		> {% if condition %}
+			//stmnts
+		   {% else %}
+		    //stmnts
+		  {% endif %}  	
+		>  {% if condition %}
+			//stmnts-1
+		   {% elif condition-2 %}
+		   	//stmnts-2
+		   {% elif condition-(n) %}
+		   	//stmnts(n)
+		   	|      |      |
+		   {% elif condition-(n-1) %}
+		   	//stmnts(n-1)
+		   {% else %}
+		    //stmnts
+		  {% endif %}
+
+	Control statements:
+	>	
+		{% for iterationavariablename in iterator %}
+			//stmnts
+		{% endfor %}
+		
+
+
