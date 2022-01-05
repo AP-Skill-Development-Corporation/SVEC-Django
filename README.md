@@ -11,3 +11,8 @@ For Second Years[AI/ML]
   - Interface between controllers
   - Django Templates
   - Interface between controller and templates
+## Day-03(05-01-2022):
+  - Static File Handling
+  - Accessing external css,js and images
+  - Bootstrap-4 Introduction
+  - Boostrap form controls,Grid system
