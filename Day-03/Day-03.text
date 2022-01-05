@@ -1,0 +1,62 @@
+Day-03[05-01-2022]:
+===================
+	Good Morning to All..
+
+	url => views => response
+	url => views => templates
+	url => views => templates => views => templates
+
+
+	Bootstrap-4:
+	============
+		Online:
+			- internet access
+		Offline
+			- by suing static folder
+
+	Bootstrap:
+	===========
+		- For reponsiveness
+		- inbuilt class styling 
+
+	colors:
+	=======
+		- danger
+		- success
+		- secondary
+		- dark
+		- primary
+		- light
+		- warning
+		- info
+	for backgrounds,text,cards,containers,body etc.,
+
+	Margins:
+	========
+		- margin-left => ml
+		- margin-right => mr
+		- margin-top => mt
+		- margin-bottom => mb
+		Axis:
+		-----
+		- mx => left and right
+		- my => top and bottom
+	Padding:
+	========
+		- padding-left => pl
+		- padding-right => pr
+		- padding-top => pt
+		- padding-bottom => pb
+		Axis:
+		-----
+		- px => left and right
+		- py => top and bottom
+
+	Static folder access:
+	=====================
+		for each file of .html
+		> first we need to load the content in side of static
+			=> {% load static %}
+		> Linking for accessing the .css files
+			=> <link rel="stylesheet" href="{% static 'folder/filename.extension' %}"
+		
