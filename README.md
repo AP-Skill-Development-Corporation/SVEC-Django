@@ -16,3 +16,6 @@ For Second Years[AI/ML]
   - Accessing external css,js and images
   - Bootstrap-4 Introduction
   - Boostrap form controls,Grid system
+## Day-04(06-01-2022):
+  - SQL and ORM Queries
+  - Forms.py creation and widgets useage for a model class
