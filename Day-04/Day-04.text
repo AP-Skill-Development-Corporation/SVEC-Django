@@ -1,0 +1,83 @@
+Day-04[06-01-2022]:
+===================
+	Good Morning to All..
+
+	Db Browser to display the database tables and fields in it.
+		> db browser
+to Create table:
+--> create table tablename(column1 dt,column2 dt,..... columnN dt)
+ex: create table dept(deptName char,deptId int,fcount int)
+To insert data:
+===============
+--> insert into tableName values(val1,val2,...valN)
+ex: insert into dept values("CSE",501,60)
+To read data:
+=============
+--> select * from tableName
+-->ex: select * from dept;
+update values in tables:
+=======================
+update tablename
+set col1=value1,col2=value2
+where condition;
+--> ex: update dept set fcount=30 where deptId=501
+Delete record:
+==============
+--> delete from tableName;
+
+
+ORM Queries:
+--> obj = Employee(empname="Mohammd",empage=25,empsal=25000)
+--> obj.save()
+
+Retriving Data:
+===============
+	--> data = Employee.objects.all()
+	--> to retrive a specific record:
+		--> have 2 methods
+			-->filter()
+				--> info = Employee.objects.filter(empname="Mohamad")
+			-->get()
+				info = Employee.objects.get(empname="Mohamad")
+
+Forms.py:
+=========
+	-> model => form
+
+	-> {{keyname.as_p}} => paragraph
+	-> {{keyname.as_table}} => table
+	-> {{keyname.as_ul}} => unordered list
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

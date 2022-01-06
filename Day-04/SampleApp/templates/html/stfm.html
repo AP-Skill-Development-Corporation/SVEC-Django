@@ -1,0 +1,19 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Static File Example</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'css/sample.css' %}">
+	<script type="text/javascript" src="{% static 'js/demo.js' %}"></script>
+</head>
+<body>
+<form>
+	<h3>Student Form</h3>
+	<label>Student Name: </label>
+	<input type="text" name=""><br/>
+	<label>Student Branch: </label>
+	<input type="text" name=""><br/>
+</form>
+<img src="{% static 'images/sta.jpg' %}">
+</body>
+</html>
