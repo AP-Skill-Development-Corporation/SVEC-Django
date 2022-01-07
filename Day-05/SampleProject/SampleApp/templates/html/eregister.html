@@ -1,0 +1,49 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Employee Details</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.min.css' %}">
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row mt-3">
+			<div class="card col-md-4 shadow-lg mx-2 h-100">
+				<h3 class="bg-warning text-light text-center p-2 border rounded mt-2">Add Employee</h3>
+				<form method="post">
+					{% csrf_token %}
+					{% for i in p %}
+						{{i}}
+					{% endfor %}
+					<div class="row my-2">
+						<input type="reset" value="Reset" class="col-md mx-2 btn btn-outline-danger">
+						<input type="submit" value="Create" class="col-md mx-2 btn btn-outline-success">
+					</div>
+				</form>	
+			</div>
+			<div class="card col-md shadow-lg mx-2">
+				<h3 class="bg-primary text-light text-center p-2 border rounded mt-2">Employee Details</h3>
+				<table class="table table-hover">
+					<tr class="bg-dark text-light">
+						<th>Sno</th>
+						<th>Name</th>
+						<th>Salary</th>
+						<th>Actions</th>
+					</tr>
+					{% for i in g %}
+					<tr>
+						<td>{{forloop.counter}}</td>
+						<td>{{i.empname}}</td>
+						<td>{{i.empsal}}</td>
+						<td>
+							<a href="{% url 'ep' i.id %}" class="btn btn-outline-info mx-1">Update</a>
+							<a href="{% url 'edt' i.id %}" class="btn btn-outline-danger mx-1">Delete</a>
+						</td>
+					</tr>
+					{% endfor %}
+				</table>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

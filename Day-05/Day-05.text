@@ -1,0 +1,12 @@
+Day-05[07-01-2022]:
+===================
+	Good Morning to All...
+	Admin Interface:
+
+	--> python manage.py createsuperuser
+
+	urls => views => forms => templates => views => models => templates
+
+
+
+
