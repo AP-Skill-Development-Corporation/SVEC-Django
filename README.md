@@ -19,3 +19,6 @@ For Second Years[AI/ML]
 ## Day-04(06-01-2022):
   - SQL and ORM Queries
   - Forms.py creation and widgets useage for a model class
+## Day-05(07-01-2022):
+  - CRUD Operations for Employee Table
+  - Include and exclude for a project
