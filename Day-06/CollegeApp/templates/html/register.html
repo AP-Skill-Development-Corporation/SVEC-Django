@@ -1,0 +1,21 @@
+{% extends 'html/base.html' %}
+{% block title %}User Registration{% endblock %}
+{% block content %}
+<div class="container mt-2">
+	<div class="card col-md-6 mx-auto">
+		<div class="card-body">
+			<h3>User Registration</h3>
+			<form method="post">
+				{% csrf_token %}
+				{% for i in h %}
+				{{i}}
+				{% endfor %}
+				<div class="row">
+					<a href="{% url 'lg' %}" class="btn btn-outline-info col-md mx-2 my-2">Exisitng User</a>
+					<input type="submit" value="Subscribe" class="btn btn-outline-success col-md mx-2 my-2">
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+{% endblock %}

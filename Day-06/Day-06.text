@@ -1,0 +1,14 @@
+Day-06[08-01-2022]:
+===================
+	Good Morning to All...
+
+	include -> for navbar
+	extends -> for each and every .html files to access the bootstrap,css or jquery etc.,
+
+	DTL Tags for accessing the content
+	>
+		{% block content %}
+			//content need to display
+		{% endblock %}
+
+	
